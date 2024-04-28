@@ -151,8 +151,8 @@ The destination for sending to the DivingStation is UDP port 25790, and data rec
     - Type: Blob
 - Remarks:
   - Contents of OSC Packet values are as follows:
-    - Haptic data (Left hand): 2.5 bytes
-      - 24 boolean values indicating On/Off of each finger's haptic
+    - Haptic data (Left hand): 2 bytes
+      - 16 boolean values indicating On/Off of each finger's haptic
       - Index meanings are as follows:
 
       <details><summary>Correspondence</summary>
